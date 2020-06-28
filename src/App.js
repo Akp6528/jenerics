@@ -14,7 +14,7 @@ class App extends Component {
     let url = `/search/${searchInput}`;
     history.push(url);
   };
-
+   
   render() {
     return (
       <PhotoContextProvider>
